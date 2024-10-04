@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/crypto-deploy/static/js/main.dcbc12bf.js",
+    "static/js/453.d4f043f2.chunk.js": "/crypto-deploy/static/js/453.d4f043f2.chunk.js",
+    "index.html": "/crypto-deploy/index.html",
+    "main.dcbc12bf.js.map": "/crypto-deploy/static/js/main.dcbc12bf.js.map",
+    "453.d4f043f2.chunk.js.map": "/crypto-deploy/static/js/453.d4f043f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.dcbc12bf.js"
+  ]
+}
