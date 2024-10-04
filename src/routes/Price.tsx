@@ -46,18 +46,18 @@ function Price() {
         <p>15m</p>
         <UpDown
           className={
-            state.tickersData.quotes.USD.percent_change_15m > 0
+            state.quotes.USD.percent_change_15m > 0
               ? 'red'
-              : state.tickersData.quotes.USD.percent_change_15m < 0
+              : state.quotes.USD.percent_change_15m < 0
               ? 'blue'
               : ''
           }
         >
-          <span>{state.tickersData.quotes.USD.percent_change_15m}</span>
+          <span>{state.quotes.USD.percent_change_15m}</span>
           <span>
-            {state.tickersData.quotes.USD.percent_change_15m > 0 ? (
+            {state.quotes.USD.percent_change_15m > 0 ? (
               <FontAwesomeIcon icon={faCaretUp} />
-            ) : state.tickersData.quotes.USD.percent_change_15m < 0 ? (
+            ) : state.quotes.USD.percent_change_15m < 0 ? (
               <FontAwesomeIcon icon={faCaretDown} />
             ) : (
               ''
@@ -69,18 +69,18 @@ function Price() {
         <p>30m</p>
         <UpDown
           className={
-            state.tickersData.quotes.USD.percent_change_30m > 0
+            state.quotes.USD.percent_change_30m > 0
               ? 'red'
-              : state.tickersData.quotes.USD.percent_change_30m < 0
+              : state.quotes.USD.percent_change_30m < 0
               ? 'blue'
               : ''
           }
         >
-          <span>{state.tickersData.quotes.USD.percent_change_30m}</span>
+          <span>{state.quotes.USD.percent_change_30m}</span>
           <span>
-            {state.tickersData.quotes.USD.percent_change_30m > 0 ? (
+            {state.quotes.USD.percent_change_30m > 0 ? (
               <FontAwesomeIcon icon={faCaretUp} />
-            ) : state.tickersData.quotes.USD.percent_change_30m < 0 ? (
+            ) : state.quotes.USD.percent_change_30m < 0 ? (
               <FontAwesomeIcon icon={faCaretDown} />
             ) : (
               ''
@@ -92,18 +92,18 @@ function Price() {
         <p>1h</p>
         <UpDown
           className={
-            state.tickersData.quotes.USD.percent_change_1h > 0
+            state.quotes.USD.percent_change_1h > 0
               ? 'red'
-              : state.tickersData.quotes.USD.percent_change_1h < 0
+              : state.quotes.USD.percent_change_1h < 0
               ? 'blue'
               : ''
           }
         >
-          <span>{state.tickersData.quotes.USD.percent_change_1h}</span>
+          <span>{state.quotes.USD.percent_change_1h}</span>
           <span>
-            {state.tickersData.quotes.USD.percent_change_1h > 0 ? (
+            {state.quotes.USD.percent_change_1h > 0 ? (
               <FontAwesomeIcon icon={faCaretUp} />
-            ) : state.tickersData.quotes.USD.percent_change_1h < 0 ? (
+            ) : state.quotes.USD.percent_change_1h < 0 ? (
               <FontAwesomeIcon icon={faCaretDown} />
             ) : (
               ''
@@ -115,18 +115,18 @@ function Price() {
         <p>6h</p>
         <UpDown
           className={
-            state.tickersData.quotes.USD.percent_change_6h > 0
+            state.quotes.USD.percent_change_6h > 0
               ? 'red'
-              : state.tickersData.quotes.USD.percent_change_6h < 0
+              : state.quotes.USD.percent_change_6h < 0
               ? 'blue'
               : ''
           }
         >
-          <span>{state.tickersData.quotes.USD.percent_change_6h}</span>
+          <span>{state.quotes.USD.percent_change_6h}</span>
           <span>
-            {state.tickersData.quotes.USD.percent_change_6h > 0 ? (
+            {state.quotes.USD.percent_change_6h > 0 ? (
               <FontAwesomeIcon icon={faCaretUp} />
-            ) : state.tickersData.quotes.USD.percent_change_6h < 0 ? (
+            ) : state.quotes.USD.percent_change_6h < 0 ? (
               <FontAwesomeIcon icon={faCaretDown} />
             ) : (
               ''
@@ -138,18 +138,18 @@ function Price() {
         <p>24h</p>
         <UpDown
           className={
-            state.tickersData.quotes.USD.percent_change_24h > 0
+            state.quotes.USD.percent_change_24h > 0
               ? 'red'
-              : state.tickersData.quotes.USD.percent_change_24h < 0
+              : state.quotes.USD.percent_change_24h < 0
               ? 'blue'
               : ''
           }
         >
-          <span>{state.tickersData.quotes.USD.percent_change_24h}</span>
+          <span>{state.quotes.USD.percent_change_24h}</span>
           <span>
-            {state.tickersData.quotes.USD.percent_change_24h > 0 ? (
+            {state.quotes.USD.percent_change_24h > 0 ? (
               <FontAwesomeIcon icon={faCaretUp} />
-            ) : state.tickersData.quotes.USD.percent_change_24h < 0 ? (
+            ) : state.quotes.USD.percent_change_24h < 0 ? (
               <FontAwesomeIcon icon={faCaretDown} />
             ) : (
               ''
@@ -161,18 +161,18 @@ function Price() {
         <p>7d</p>
         <UpDown
           className={
-            state.tickersData.quotes.USD.percent_change_7d > 0
+            state.quotes.USD.percent_change_7d > 0
               ? 'red'
-              : state.tickersData.quotes.USD.percent_change_7d < 0
+              : state.quotes.USD.percent_change_7d < 0
               ? 'blue'
               : ''
           }
         >
-          <span>{state.tickersData.quotes.USD.percent_change_7d}</span>
+          <span>{state.quotes.USD.percent_change_7d}</span>
           <span>
-            {state.tickersData.quotes.USD.percent_change_7d > 0 ? (
+            {state.quotes.USD.percent_change_7d > 0 ? (
               <FontAwesomeIcon icon={faCaretUp} />
-            ) : state.tickersData.quotes.USD.percent_change_7d < 0 ? (
+            ) : state.quotes.USD.percent_change_7d < 0 ? (
               <FontAwesomeIcon icon={faCaretDown} />
             ) : (
               ''
